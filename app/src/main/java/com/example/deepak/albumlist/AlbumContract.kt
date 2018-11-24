@@ -51,6 +51,7 @@ class AlbumPresenter(val view: AlbumContract.View, roomDatabase: AppDataBase, ap
         })
         albumInteractor.fetchAlbumList(object : APIListener<List<AlbumData>> {
             override fun onSuccess(dataModel: List<AlbumData>) {
+                view.hideProgress()
                 view.updateAlbum(sortAlbumList(dataModel))
             }
 
