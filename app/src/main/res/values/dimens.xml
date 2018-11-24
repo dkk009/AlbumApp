@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="albumNameTextSize">16sp</dimen>
+    <dimen name="albumNamePadding">10dp</dimen>
+    <dimen name="albumElevation">5dp</dimen>
+    <dimen name="cornerRadius">5dp</dimen>
+    <dimen name="cardMargin">5dp</dimen>
+    <dimen name="txtPadding">5dp</dimen>
+</resources>
